@@ -509,7 +509,7 @@ footer {
   background-color: var(--ocean);
 }
 .modal {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -557,9 +557,9 @@ footer {
 }
 .modal-form-username {
   position:absolute;
-  top: 20px;
-  left: 10px;
-  margin:30px;
+  top: 60px;
+  left: 0px;
+  margin:0px;
 }
 .modal-form-username-input {
   position:relative;
