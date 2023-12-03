@@ -213,20 +213,27 @@
         <div class="modal is-hidden" data-modal >
             <div class="modal-content">
                 <button class="modal-content-button" data-modal-close><svg class="modal-content-icon"><use class="modal-content-icon-svg" href="./images/icons.svg#close"></use></svg></button>
+                <p>Leave your contacts and we will call you back</p>
                 <form class="model-form">
-                    <label class="modal-form-name" for="user_name">Name</label>
-                        <input class="modal-form-name-input" type="text" name="name" id="user_name" placeholder="john doe" required/>
-
-                    <label class="modal-form-username" for="user_email">Email</label>
-                        <input class="modal-form-username-input" type="email" name="email" id="user_email" placeholder="johndoe@example.com" required/>
-                  
-                    <label class="modal-form-phone" for="user_phone">Phone</label>
-                        <input class="modal-form-phone" type="tel" name="phone" id="user_phone" minlength="11" maxlength="11" placeholder="09170091234" required/>
-
-                    <label class="modal-form-comment" for="user_comment">comment</label>
-                        <input class="modal-form-comment" type="text" name="comment" id="user_comment" placeholder="Input Text here" />
-
-                  
+                    <label class="modal-form-label" for="user_name">
+                        <span class="model-form-name-span">Name</span>
+                        <input class="modal-form-name-input" type="text" name="name" id="user_name" placeholder="john doe" required="">
+                        <svg><use href="./images/icons.svg#name-icon"></use></svg>
+                    </label>
+                    <label class="modal-form-label" for="user_phone">
+                        <span class="model-form-phone-span">Phone</span>
+                        <input class="modal-form-name-input" type="tel" name="Phone" id="user_name" placeholder="+963" required="">
+                        <svg><use href="./images/icons.svg#phone"></use></svg>
+                    </label>
+                    <label class="modal-form-label" for="user_email">
+                        <span class="model-form-email-span">Email</span>
+                        <input class="modal-form-name-input" type="email" name="email" id="user_name" placeholder="john@google.com" required="">
+                        <svg><use href="./images/icons.svg#email"></use></svg>
+                    </label>
+                    <label class="modal-form-label" for="user_comment">
+                        <span class="model-form-comment-span">Comment</span>
+                        <input class="modal-form-name-input" type="text" name="Text input" id="user_name" placeholder="Text input" required="">
+                    </label>
                     <button class="modal-form-submit" type="submit">Submit</button>
                   </form>
             </div>
